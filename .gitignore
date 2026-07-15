@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+backend/.venv/
+
+# Flask / local application data
+instance/
+backend/instance/
+*.sqlite
+*.sqlite3
+site.db
+
+# Generated exports and uploads
+backend/exports/
+backend/uploads/
+exports/
+*.csv
+
+# Node / Vue
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Celery runtime files
+celerybeat-schedule
+celerybeat-schedule.*
+celerybeat.pid
+backend/celerybeat-schedule
+backend/celerybeat-schedule.*
+
+# Logs
+*.log
+logs/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary and backup files
+*.tmp
+*.temp
+*.bak
+*~
